@@ -1,0 +1,6 @@
+WeblogsViz builds on the Flare http://flare.prefuse.org/ visualization toolkit's Job Voyager example to enable drilling into two levels of stacked time series.
+
+The two levels follow frequent web application convention of controller and action. Hits on a web application are logged at the action level, but this visualization shows them at the controller level, allowing the user to click on a controller and see the action level data, then click again to return to the controller-level rollup view.
+
+Additionally, the user can toggle between a normalized and absolute data views.
+
